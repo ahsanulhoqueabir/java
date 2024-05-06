@@ -1,3 +1,5 @@
+
+
 public class BankManagement {
     public class BankAccount {
         private String accountNumber;
@@ -46,25 +48,9 @@ public class BankManagement {
             System.out.println("Account Holder Name: " + accountHolderName);
             System.out.println("Account Balance: " + balance);
             System.out.println("Account Type: " + accountType);
+            System.out.println();
         }
     }
 
-    public static void main(String[] args) {
-        BankManagement bankManagement = new BankManagement();
-        BankManagement.BankAccount account1 = bankManagement.new BankAccount("123456", "Ahsanul Hoque", 1000.0,
-                "Savings");
-        BankManagement.BankAccount account2 = bankManagement.new BankAccount("654321", "Saiman Khan", 2000.0,
-                "Checking");
-        account1.deposit(500.0);
-        account1.withdraw(200.0);
-        account1.checkBalance();
-        account1.displayAccountDetails();
-
-        account2.deposit(1000.0);
-        account2.withdraw(500.0);
-        account2.checkBalance();
-        account2.displayAccountDetails();
-
-    }
-
+   
 }
