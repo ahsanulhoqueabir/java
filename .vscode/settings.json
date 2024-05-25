@@ -1,0 +1,9 @@
+// {
+//     "workbench.colorCustomizations": {
+//         "editor.background": "#FFFFFF",         // Sets the background color to white
+//         "editor.foreground": "#000000",         // Sets the text color to black
+//         "editorCursor.foreground": "#FF0000",   // Sets the cursor color to red
+//         "editorLineNumber.foreground": "#0000FF", // Sets the line number color to blue
+//         "editor.selectionBackground": "#FFFF00" // Sets the selection background color to yellow
+//     }
+// }

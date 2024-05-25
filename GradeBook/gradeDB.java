@@ -1,4 +1,7 @@
+
 public class gradeDB {
+    // table Table = new table();
+    // int[][] gradesTable = Table.gradesTable;
     int[][] gradesTable = {
             { 90, 80, 70 },
             { 85, 75, 65 },
@@ -21,25 +24,25 @@ public class gradeDB {
     }
 
     public void printGrade() {
-        int lowest = 100, higest = 0;
+        int lowest = 100, highest = 0;
         System.out.printf("%12sTest 1 Test 2 Test 3 Average", "");
         for (int i = 0; i < gradesTable.length; i++) {
             System.out.printf("\nStudent %3d ", i + 1);
             for (int j = 0; j < gradesTable[i].length; j++) {
                 System.out.printf("%6d ", gradesTable[i][j]);
                 lowest = min(lowest, gradesTable[i][j]);
-                higest = max(higest, gradesTable[i][j]);
+                highest = max(highest, gradesTable[i][j]);
             }
             float average = (gradesTable[i][0] + gradesTable[i][1] + gradesTable[i][2]) / 3;
             System.out.printf("%7.2f", average);
             System.out.println();
         }
         System.out.printf("\nLowest grade in the grade book is: %d\n", lowest);
-        System.out.printf("Highest grade inthe grade book is: %d\n", higest);
+        System.out.printf("Highest grade inthe grade book is: %d\n", highest);
 
     }
 
-    public void gradeDistribtion() {
+    public void gradeDistribution() {
         int[] distribution = new int[11];
         for (int i = 0; i < gradesTable.length; i++) {
             for (int j = 0; j < gradesTable[i].length; j++) {
@@ -60,7 +63,7 @@ public class gradeDB {
             }
             System.out.println();
         }
-        System.out.printf("%5d:", 100);
+        System.out.printf("%7d:", 100);
         for (int j = 0; j < distribution[10]; j++) {
             System.out.print("*");
         }
