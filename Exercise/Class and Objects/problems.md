@@ -1,0 +1,8 @@
+## Problems that involve creating classes, objects, attributes, and methods:
+
+- Design a program to manage student records. Create a Student class with attributes such as name, roll number, age, and grade. Implement methods to add a new student, display all student records, search for a student by roll number, update student information, and delete a student record.
+
+- Create a BankAccount class with attributes such as account number, account holder name, balance, and account type. Implement methods to deposit money, withdraw money, check account balance, and display account details. Create objects for different bank accounts and perform transactions on them.
+  Design a program to manage employee payroll. Create an Employee class with attributes like employee ID, name, designation, and salary. Implement methods to calculate monthly salary, give salary increment, display employee details, and search for an employee by ID. Create objects for multiple employees and perform operations on them.
+- Implement a program to manage a product inventory. Create a Product class with attributes such as product ID, name, price, and quantity. Implement methods to add a new product, update product information, display all products, search for a product by ID, and remove a product from inventory. Create objects for various products and perform inventory operations.
+- Develop a system to manage vehicle rentals. Create a Vehicle class with attributes like vehicle ID, type, model, and rental rate. Implement methods to rent a vehicle, return a rented vehicle, display available vehicles, display rented vehicles, and calculate total rental earnings. Create objects for different types of vehicles and perform rental transactions.
